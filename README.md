@@ -44,8 +44,8 @@ pip install apache-airflow pymongo psycopg2
 flowchart LR
     dag_start((Start))
     create_sample_data[Create Sample Data]
-    copy_anomalies_into_new_collection[Copy Anomalies]
-    insert_airflow_logs_into_mongodb[Insert Airflow Logs]
+    copy_anomalies_into_new_collection[Copy Anomalies Into New Collection]
+    insert_airflow_logs_into_mongodb[Insert Airflow Logs Into MongoDB]
     dag_finish((Finish))
     
     dag_start --> create_sample_data --> copy_anomalies_into_new_collection --> dag_finish
