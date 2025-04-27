@@ -1,4 +1,4 @@
-# Airflow - MongoDB - PostgreSQL
+# Airflow DAG Projesi
 
 Bu proje **Apache Airflow**, **MongoDB** ve **PostgreSQL** kullanarak rastgele veri üretimi, anomali tespiti ve log verilerinin MongoDB'ye kaydetme otomatikleştiren DAG içerir.
 
